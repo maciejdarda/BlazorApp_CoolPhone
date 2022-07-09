@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp_CoolPhone", "BlazorApp_CoolPhone\BlazorApp_CoolPhone.csproj", "{7B378500-310A-4745-A12F-C9912FA625F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B378500-310A-4745-A12F-C9912FA625F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B378500-310A-4745-A12F-C9912FA625F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B378500-310A-4745-A12F-C9912FA625F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B378500-310A-4745-A12F-C9912FA625F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A5EBB3D-ADF7-4277-95D3-F71A04DA1D3F}
+	EndGlobalSection
+EndGlobal
