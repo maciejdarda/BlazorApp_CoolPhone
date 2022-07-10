@@ -1,3 +1,4 @@
+using BlazorApp_CoolPhone.Services;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +19,7 @@ namespace BlazorApp_CoolPhone
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5001/") });
+            builder.Services.AddScoped<IItemServices, ItemServices>();
 
             await builder.Build().RunAsync();
         }
